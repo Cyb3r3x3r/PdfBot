@@ -15,3 +15,7 @@ Run the pdfbot
 ```
 python pdfaibot.py
 ```
+If you don't have gpu, just remove device=cuda or try adding device=cpu or gpu ranked 1 based on your device from the following line
+```
+qa_pipeline = pipeline("question-answering",model=model,tokenizer=tokenizer,device="cuda")
+```
