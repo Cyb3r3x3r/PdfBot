@@ -1,3 +1,3 @@
-pdfplumber
-transformers
-alive-progress
+pdfplumber==0.11.4
+transformers==4.46.2
+alive-progress==3.2.0
